@@ -1,0 +1,31 @@
+#nav {
+    flex-direction: column;
+    margin: 0mm;
+    margin-left: 0mm;
+    padding: 0pc;
+}
+#nav #img #imag{
+    align-content: center;
+    align-items: center;
+    height: 6rem;
+    width: 16rem;
+}
+
+#nav ul li a {
+    padding: 0mm;
+    
+        text-decoration: none;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-weight: 300;
+        color: mintcream;
+        padding: 0.1rem 0.1rem;
+}
+#nav ul {
+    margin-left: -39px;
+    margin-right: -11px;
+}
+
+#nav ul li{
+    margin-left: 0px;
+    margin-right: 0px;
+}

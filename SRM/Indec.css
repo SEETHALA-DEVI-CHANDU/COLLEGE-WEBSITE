@@ -1,0 +1,72 @@
+*{
+    top:0%;
+    left: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+#nav {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+#nav #im {
+    height: 5rem;
+    width: 13rem;
+}
+
+#nav #ull{
+    display: flex;
+   padding: 1rem;
+   margin: 9px 14px 13px 20px;
+}
+
+#nav #ull li {
+    padding: 1rem;
+    text-decoration: none;
+    list-style: none;
+    margin: 2px 30px;
+}
+
+#nav::before{
+    content: "";
+    height: 120px;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    position: sticky;
+}
+
+
+#LOGIN {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 1rem;
+    /* height: 100rem; */
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+ #LOGIN::before { 
+    content: "";
+    height: 120rem;
+    position: absolute;    
+} 
+
+
+#LOGIN input{
+    justify-content: center;
+    text-align: center;
+
+}
